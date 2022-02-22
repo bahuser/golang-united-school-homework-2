@@ -22,7 +22,7 @@ func CalcSquare(sideLen float64, sidesNum sidesNum) float64 {
 	case SidesSquare:
 		return sideLen * sideLen
 	case SidesTriangle:
-		return (sideLen * sideLen * math.Sqrt(3)) / 2
+		return (sideLen * sideLen * math.Sqrt(3)) / 4
 	case SidesCircle:
 		return math.Pi * (sideLen * sideLen)
 	default:
